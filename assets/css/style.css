@@ -6,7 +6,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     backdrop-filter: blur(15px);
-    font-family:"Montserrat", sans-serif;
+    font-family: "Oxanium", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Orbitron", sans-serif;
 }
 
 .hardlaunch-set {
