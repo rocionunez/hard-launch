@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(53, 6, 63);
+    background-image: url(../img/hardlaunch.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(15px);
+    font-family:"Montserrat", sans-serif;
+}
+
+.hardlaunch-set {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+a:hover {
+    color: whitesmoke;
+}
+
