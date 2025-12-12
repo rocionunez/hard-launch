@@ -5,13 +5,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(7px);
     font-family: "Oxanium", sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Orbitron", sans-serif;
 }
-
+.navbar {
+    background-color: black !important;
+}
 .hardlaunch-set {
     width: 100%;
 }
@@ -23,6 +25,14 @@ a:hover {
     color: whitesmoke;
 }
 
+.btn {
+    font-size: small;
+}
+.card-footer {
+margin-bottom: 1em;
+}
+
+/* animaciones */
 .autoshow {
     animation: text-appear both;
     animation-timeline: view(75% 20%);  
@@ -55,4 +65,7 @@ animation-timeline: view(85% 20%);
         scale: 1;
         translate: 0 0;
     }
+}
+.episodes {
+    width: 99%;
 }
