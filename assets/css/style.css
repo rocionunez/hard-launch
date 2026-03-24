@@ -12,47 +12,59 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Orbitron", sans-serif;
 }
 
-.navbar {
-    background-color: black !important;
-}
 .hardlaunch-set {
     width: 100%;
 }
+
 a {
     text-decoration: none;
     color: lightgrey;
 }
+
 a:hover {
     color: whitesmoke;
 }
 
-.btn {
-    font-size: small;
+.card {
+    background-color: hsl(0, 0%, 0%, 50%);
 }
+
 .card-footer {
-margin-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.episodes {
+    width: 99%;
+}
+
+.espaciado {
+    scroll-margin-top: 95px;
 }
 
 /* animaciones */
 .autoshow {
     animation: text-appear both;
-    animation-timeline: view(75% 20%);  
-    animation-range: entry 20% cover 100vh; 
+    animation-timeline: view(95% 20%);
+    animation-range: entry 10% cover 100vh;
 }
+
 @keyframes text-appear {
     from {
         opacity: 0;
         transform: translateY(80px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 .image-reveal {
     animation: image-reveal both;
-animation-timeline: view(85% 20%);
+    animation-timeline: view(85% 20%);
 }
+
 @keyframes image-reveal {
     from {
         filter: saturate(0) contrast(4) brightness(.1) blur(5px);
@@ -60,16 +72,11 @@ animation-timeline: view(85% 20%);
         scale: .95;
         translate: 0 4rem;
     }
+
     to {
         filter: none;
         opacity: 1;
         scale: 1;
         translate: 0 0;
     }
-}
-.episodes {
-    width: 99%;
-}
-.espaciado {
-    scroll-margin-top: 95px;
 }
